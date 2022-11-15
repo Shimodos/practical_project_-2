@@ -3,6 +3,7 @@ import sliders from "./modules/sliders";
 import forms from "./modules/forms";
 import mask from "./modules/mask";
 import chackTextInputs from "./modules/chackTextInputs";
+import showMorStyles from "./modules/showMorStyles";
 
 window.addEventListener("DOMContentLoaded", () => {
     'use strict';
@@ -14,4 +15,5 @@ window.addEventListener("DOMContentLoaded", () => {
     mask('[name="phone"]');
     chackTextInputs('[name="name"]');
     chackTextInputs('[name="message"]');
+    showMorStyles('.button-styles', '.styles-2');
 });
