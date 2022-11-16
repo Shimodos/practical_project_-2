@@ -15,5 +15,5 @@ window.addEventListener("DOMContentLoaded", () => {
     mask('[name="phone"]');
     chackTextInputs('[name="name"]');
     chackTextInputs('[name="message"]');
-    showMorStyles('.button-styles', '.styles-2');
+    showMorStyles('.button-styles', '#styles .row');
 });
