@@ -4,6 +4,7 @@ import forms from "./modules/forms";
 import mask from "./modules/mask";
 import chackTextInputs from "./modules/chackTextInputs";
 import showMorStyles from "./modules/showMorStyles";
+import calc from "./modules/calc";
 
 window.addEventListener("DOMContentLoaded", () => {
     'use strict';
@@ -16,4 +17,5 @@ window.addEventListener("DOMContentLoaded", () => {
     chackTextInputs('[name="name"]');
     chackTextInputs('[name="message"]');
     showMorStyles('.button-styles', '#styles .row');
+    calc('#size', '#material', '#options', '.promocode', '.calc-price');
 });
